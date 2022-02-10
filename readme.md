@@ -27,11 +27,7 @@ Activate the environment with `source`.
 source env/bin/activate
 ```
 
-Deactivate the environment
-
-```zsh
-deactivate
-```
+Deactivate the environment with `deactivate`.
 
 ## 2. Reproducing the output
 
