@@ -6,7 +6,7 @@ There are two components to the project:
 
 1. A recurrent neural network that has been trained to predict the sentiment of movie reviews in the [IMDB movie reviews](https://www.tensorflow.org/datasets/catalog/imdb_reviews) dataset.
 
-2. Functions that "explain" the model's predictions by estimating SHAP values for each individual token in the input sequence. One of these function generates a dictionary of data that can be used to visualise the contribution of each individual token in the sequence to the prediction.
+2. Functions that "explain" the model's predictions by estimating SHAP values for each individual token in the input sequence. One of these functions generates a dictionary of data that can be used to visualise the contribution of each individual token in the sequence to the prediction.
 
 This project is a proof of concept and a work in progress.
 
