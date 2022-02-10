@@ -19,11 +19,11 @@ https://lime-ml.readthedocs.io/en/latest/lime.html
 https://marcotcr.github.io/lime/tutorials/Lime%20-%20multiclass.html
 
 
-# Explainable AI critique
+## Explainable AI critique
 https://www.thelancet.com/journals/landig/article/PIIS2589-7500(21)00208-9/fulltext
 
 
-# TextVectorization issue
+## TextVectorization issue
 https://stackoverflow.com/questions/70255845/tensorflow-textvectorization-producing-ragged-tensor-with-no-padding-after-loadi
 
 
