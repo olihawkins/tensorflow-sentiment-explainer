@@ -92,6 +92,6 @@ The following table shows basic metrics for the `rnn_sentiment_classifier` model
 
 ## 4. Visualisation of the results
 
-The following visualisation compares the original text of a movie review from the test set with a representation of how the sentiment classifier sees the review. Each token in the sequence is shaded with its SHAP value. Tokens shaded green contributed positive sentiment to the prediction, while tokens shaded pink contributed negative sentiment to the prediction. The strength of the shading incicates the relative strength of the contribution.
+The following visualisation compares the original text of a movie review from the test set with a representation of how the sentiment classifier sees the review. Each token in the sequence is shaded with its SHAP value. Tokens shaded green contributed positive sentiment to the prediction, while tokens shaded pink contributed negative sentiment to the prediction. The strength of the shading indicates the relative strength of the contribution.
 
 <img src="docs/visual-explanation.png" width="800" alt="A visualisation of SHAP scores for each token in a sequence of tokens comprising a movie review" />
