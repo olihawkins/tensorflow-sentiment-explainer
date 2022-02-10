@@ -85,7 +85,7 @@ with open('data/output/reviews-50.json', 'w') as outfile:
 
 ## 3. Metrics for the RNN sentiment classifier
 
-The following table shows basic metrics for thel`rnn_sentiment_classifier` model on the test set. This model has already been trained and can be found in the models directory.
+The following table shows basic metrics for the `rnn_sentiment_classifier` model on the test set. This model has already been trained and can be found in the models directory.
 
 | Metric    | Score  |
 | --------- | ------ |
