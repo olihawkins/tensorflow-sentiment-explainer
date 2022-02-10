@@ -44,7 +44,7 @@ This repository contains a pre-trained model called `rnn_sentiment_classifer`, w
 To train a new model, provide `train_model` with the name to use for the model. This will save the model, the vectorizer and tensorboard logs for this model using the model name.
 
 ```python
-import main
+from sentiment import main
 model, history, vectorizer = main.train_model('my_model')
 ```
 
@@ -53,7 +53,7 @@ model, history, vectorizer = main.train_model('my_model')
 To evaluate a model, provide `evaluate_model` with the name of a model and the name of the dataset to use for the evaluation, which should be either `val`, or `test`.
 
 ```python
-import main
+from sentiment import main
 results = main.evaluate_model('my_model', evaulation_set='test')
 ```
 
@@ -64,7 +64,7 @@ To get the explanatory data for a model, provide `explain_model` with the name o
 The SHAP explainer will use some of the values from the training set as background data. You can designate a slice of records to use as background data and a slice to use for predictions with the `background_start`, `background_end`, `evaluation_start`, and `evaluation_end` arguments. For example, to get explanatory data for predictions of the first ten records in the test set, using the first hundred records of the training set as backfreound data, you would do the following.
 
 ```python
-import main
+from sentiment import main
 reviews = main.explain_model(
     'my_model',
     evaluation_set='test', 
