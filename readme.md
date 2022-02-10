@@ -37,11 +37,11 @@ deactivate
 
 The `main` module contains three functions for producing (and reproducing) the results. Each function takes the name of a model to work with. The function for training a model will create and save a model with the given name, while the functions for evaluating a model and explaining the predictions from a model will look for a model with that name in the `models` directory and use that to make predictions for evaluation or explanation.
 
-This repository contains a pre-trained model called `rnn_sentiment_classifer`, which can be used to evaluate or explain predictions from the training, validation and test sets. Note that if you train a new model with this model name it will overwrite the pre-trained model in the `models` directory.
+This repository contains a pre-trained model called `rnn_sentiment_classifer`, which can be used to evaluate or explain predictions from the validation and test sets. Note that if you train a new model with this model name it will overwrite the pre-trained model in the `models` directory.
 
 ### 2.1. Train a model
 
-To train a new model, provide `train_model` with the name to use for the model. This will save the model, the vectorizer and tensorboard logs for this model using the model name.
+To train a new model, provide `train_model` with the name to use for the model. This will save the model, the vectorizer, and the tensorboard logs for this model using the model name.
 
 ```python
 from sentiment import main
