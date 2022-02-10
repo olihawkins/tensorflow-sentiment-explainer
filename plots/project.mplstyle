@@ -1,0 +1,54 @@
+# Local matplotlib style
+# Template file:
+# https://github.com/matplotlib/matplotlib/blob/v3.1.3/matplotlibrc.template
+# https://matplotlib.org/stable/tutorials/introductory/customizing.html
+
+# Figure
+figure.dpi              : 600
+figure.facecolor        : white
+figure.titlesize        : 16
+figure.titleweight      : bold
+figure.subplot.top      : 0.86
+figure.autolayout       : True
+
+# Axes
+axes.facecolor          : white
+axes.edgecolor          : none
+axes.grid               : True
+axes.grid.axis          : both
+axes.axisbelow          : True
+axes.titlelocation      : center
+axes.titlesize          : 12
+axes.titleweight        : bold
+axes.titlepad           : 10.0
+axes.labelpad           : 10.0
+axes.prop_cycle         : cycler('color', [ '204466', '249db5', 'b84818', '30c788', 'ffc517', '9956db', 'f28100'])
+
+# Grid
+grid.color              : c0c0c0
+grid.linestyle          : -
+grid.linewidth          : 0.25
+grid.alpha              : 1.0
+
+# X Ticks
+xtick.bottom            : False
+xtick.labelbottom       : True
+xtick.color             : 484848
+
+# Y Ticks
+ytick.left              : False
+ytick.labelleft         : True
+ytick.color             : 484848
+
+# Fonts
+font.family             : sans-serif
+font.sans-serif         : Cabin, Trebuchet MS, DejaVu Sans
+font.weight             : normal
+font.size               : 10
+
+# Text
+text.color              : 484848
+
+# Scatter
+scatter.marker          : o 
+scatter.edgecolors      : none

@@ -1,0 +1,7 @@
+# Directories
+docs/pdfs
+env
+sentiment/__pycache__
+
+# Files
+.DS_Store
