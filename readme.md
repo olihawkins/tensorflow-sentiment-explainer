@@ -57,7 +57,7 @@ results = main.evaluate_model('my_model', evaulation_set='test')
 
 To get the explanatory data for a model, provide `explain_model` with the name of the model and the name of the dataset to use for the predictions to explain, which should be either `val`, or `test`. 
 
-The SHAP explainer will use some of the values from the training set as background data. You can designate a slice of records to use as background data and a slice to use for predictions with the `background_start`, `background_end`, `evaluation_start`, and `evaluation_end` arguments. For example, to get explanatory data for predictions of the first ten records in the test set, using the first hundred records of the training set as backfreound data, you would do the following.
+The SHAP explainer will use some of the values from the training set as background data. You can designate a slice of records to use as background data and a slice to use for predictions with the `background_start`, `background_end`, `evaluation_start`, and `evaluation_end` arguments. For example, to get explanatory data for predictions of the first ten records in the test set, using the first one hundred records of the training set as background data, you would do the following:
 
 ```python
 from sentiment import main
