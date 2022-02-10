@@ -83,7 +83,7 @@ with open('data/output/reviews-50.json', 'w') as outfile:
     outfile.write(reviews_serialized)
 ```
 
-## Metrics for the RNN sentiment classifier
+## 3. Metrics for the RNN sentiment classifier
 
 The following table shows basic metrics for thel `rnn_sentiment_classifier` model on the test set. This model has already been trained and can be found in the models directory.
 
@@ -94,7 +94,7 @@ The following table shows basic metrics for thel `rnn_sentiment_classifier` mode
 | Recall    | 0.901  |
 | F1 Score  | 0.897  |
 
-## Visualisation of the results
+## 4. Visualisation of the results
 
 The following visualisation compares the original text of a movie review from the test set with a representation of how the sentiment classifier sees the review. Each token in the sequence is shaded with its SHAP value. Tokens shaded green contributed positive sentiment to the prediction, while tokens shaded pink contributed negative sentiment to the prediction. The strength of the shading incicates the relative strength of the contribution.
 
