@@ -15,7 +15,7 @@ This project is a proof of concept and a work in progress.
 Create the environment with `venv`.
 
 ```zsh
-/usr/local/bin/python3 -m venv env
+python3 -m venv env
 source env/bin/activate
 pip install --upgrade pip
 pip install ipython numpy pandas scikit-learn matplotlib tensorflow tensorflow-datasets shap
