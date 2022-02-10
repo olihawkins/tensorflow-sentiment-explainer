@@ -79,7 +79,7 @@ This function returns a dictionary of results data, which includes the original 
 ```python
 import json
 reviews_serialized = json.dumps(reviews)
-with open('data/output/reviews-50.json', 'w') as outfile:
+with open('data/output/reviews.json', 'w') as outfile:
     outfile.write(reviews_serialized)
 ```
 
