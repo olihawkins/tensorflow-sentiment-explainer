@@ -232,9 +232,7 @@ def load_model_with_vectorizer(model_name, train_documents):
 
     model = Sequential()
     model.add(vectorizer)
-    model.add(model_disk.layers[2])
-    model.add(model_disk.layers[3])
-    model.add(model_disk.layers[4])
-    model.add(model_disk.layers[5])
+    for layer in model_disk.layers[2:]:
+        model.add(layer)
 
     return model, vectorizer
