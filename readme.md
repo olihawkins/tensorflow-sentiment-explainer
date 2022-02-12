@@ -21,10 +21,11 @@ pip install --upgrade pip
 pip install ipython numpy pandas scikit-learn matplotlib tensorflow tensorflow-datasets shap
 ```
 
-Activate the environment with `source`.
+Activate and deactivate the environment with `source`.
 
 ```zsh
 source env/bin/activate
+source env/bin/deactivate
 ```
 
 Deactivate the environment with `deactivate`.
