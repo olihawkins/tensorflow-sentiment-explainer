@@ -25,7 +25,7 @@ source env/bin/activate
 ## Deactivate the environment
 
 ```zsh
-source env/bin/deactivate
+deactivate
 ```
 
 ## VS Code integration
